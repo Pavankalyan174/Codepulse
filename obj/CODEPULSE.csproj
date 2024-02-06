@@ -1,0 +1,143 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NewFolder1\**" />
+    <Compile Remove="NewFolder2\**" />
+    <Compile Remove="NewFolder3\**" />
+    <Compile Remove="NewFolder\**" />
+    <Content Remove="NewFolder1\**" />
+    <Content Remove="NewFolder2\**" />
+    <Content Remove="NewFolder3\**" />
+    <Content Remove="NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="NewFolder2\**" />
+    <EmbeddedResource Remove="NewFolder3\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="NewFolder1\**" />
+    <None Remove="NewFolder2\**" />
+    <None Remove="NewFolder3\**" />
+    <None Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0\CODEPULSE.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0\CODEPULSE.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net7.0\CODEPULSE.MvcApplicationPartsAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include=".vs\VSWorkspaceState.json" />
+    <Content Include="bin\Debug\net7.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net7.0\appsettings.json" />
+    <Content Include="bin\Debug\net7.0\CODEPULSE.deps.json" />
+    <Content Include="bin\Debug\net7.0\CODEPULSE.runtimeconfig.json" />
+    <Content Include="obj\CODEPULSE.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net7.0\CODEPULSE.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net7.0\staticwebassets.build.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include=".vs\CODEPULSE\v17\" />
+    <Folder Include="bin\Release\net7.0\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".vs\CODEPULSE\FileContentIndex\0131013c-175a-46fa-9768-d3dab97957c3.vsidx" />
+    <None Include=".vs\CODEPULSE\FileContentIndex\86857e09-b10c-4f81-a228-ce25a11fb910.vsidx" />
+    <None Include=".vs\CODEPULSE\FileContentIndex\9274d915-d16a-4473-b6d5-2375acd87563.vsidx" />
+    <None Include=".vs\CODEPULSE\FileContentIndex\92bc960b-9965-48dd-9781-0a421f82e98b.vsidx" />
+    <None Include=".vs\CODEPULSE\FileContentIndex\c36665ff-9c3a-423c-bbf6-85d54f3c0f61.vsidx" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include="bin\Debug\net7.0\Azure.Core.dll" />
+    <None Include="bin\Debug\net7.0\Azure.Identity.dll" />
+    <None Include="bin\Debug\net7.0\CODEPULSE.dll" />
+    <None Include="bin\Debug\net7.0\CODEPULSE.exe" />
+    <None Include="bin\Debug\net7.0\CODEPULSE.pdb" />
+    <None Include="bin\Debug\net7.0\Humanizer.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.Identity.Client.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.SqlServer.Server.dll" />
+    <None Include="bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\net7.0\Mono.TextTemplating.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll" />
+    <None Include="bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Debug\net7.0\System.CodeDom.dll" />
+    <None Include="bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll" />
+    <None Include="bin\Debug\net7.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll" />
+    <None Include="bin\Debug\net7.0\System.Memory.Data.dll" />
+    <None Include="bin\Debug\net7.0\System.Runtime.Caching.dll" />
+    <None Include="bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Debug\net7.0\System.Security.Permissions.dll" />
+    <None Include="bin\Debug\net7.0\System.Windows.Extensions.dll" />
+    <None Include="obj\CODEPULSE.csproj.nuget.g.props" />
+    <None Include="obj\CODEPULSE.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net7.0\apphost.exe" />
+    <None Include="obj\Debug\net7.0\CODEPULSE.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0\CODEPULSE.assets.cache" />
+    <None Include="obj\Debug\net7.0\CODEPULSE.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0\CODEPULSE.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net7.0\CODEPULSE.csproj.CopyComplete" />
+    <None Include="obj\Debug\net7.0\CODEPULSE.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net7.0\CODEPULSE.dll" />
+    <None Include="obj\Debug\net7.0\CODEPULSE.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net7.0\CODEPULSE.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net7.0\CODEPULSE.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net7.0\CODEPULSE.pdb" />
+    <None Include="obj\Debug\net7.0\refint\CODEPULSE.dll" />
+    <None Include="obj\Debug\net7.0\ref\CODEPULSE.dll" />
+    <None Include="obj\Debug\net7.0\staticwebassets\msbuild.build.CODEPULSE.props" />
+    <None Include="obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CODEPULSE.props" />
+    <None Include="obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CODEPULSE.props" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+</Project>
